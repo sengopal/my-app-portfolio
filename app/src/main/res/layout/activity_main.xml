@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+    <GridLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:columnCount="2"
+        android:orientation="horizontal"
+        android:layout_margin="10sp"
+        android:useDefaultMargins="true">
+
+        <TextView android:text="@string/app_title"
+            style="@style/Base.TextAppearance.AppCompat.Display1"
+            android:clickable="false"
+            android:id="@+id/textView"
+            android:layout_columnSpan="2"
+            android:padding="10sp"/>
+
+        <Button
+            android:text="@string/spotify_app"
+            android:id="@+id/spotify_button"
+            android:textSize="20sp"
+            android:background="#5c4eebff"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:text="@string/scores_button"
+            android:id="@+id/scores_button"
+            android:textSize="20sp"
+            android:background="#5c4eebff"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:text="@string/library_button"
+            android:id="@+id/library_button"
+            android:textSize="20sp"
+            android:background="#5c4eebff"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:text="@string/build_bigger_button"
+            android:id="@+id/build_bigger_button"
+            android:textSize="20sp"
+            android:background="#5c4eebff"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:text="@string/reader_button"
+            android:id="@+id/reader_button"
+            android:textSize="20sp"
+            android:background="#5c4eebff"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:layout_margin="10sp"/>
+
+        <Button
+            android:text="@string/capstone_button"
+            android:id="@+id/capstone_button"
+            android:textSize="20sp"
+            android:background="#b748121f"
+            android:textColor="#fffffff0"
+            android:typeface="sans"
+            android:textStyle="bold"
+            android:layout_gravity="fill_horizontal"
+            android:layout_columnSpan="2"
+            android:layout_margin="10sp"/>
+
+    </GridLayout>
+    <!--
+    <GridView
+        android:id="@+id/gridView"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="50dp"
+        android:columnWidth="100dp"
+        android:drawSelectorOnTop="true"
+        android:gravity="center"
+        android:numColumns="2"
+        android:stretchMode="columnWidth"
+        android:verticalSpacing="50dp"
+        android:focusable="true"
+        android:clickable="true"/>
+    -->
